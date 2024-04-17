@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+.widget {
+  width: 700px;
+  height: 700px;
+  margin-top: 20px;
+
+  border: 5px solid #666;
+  border-radius: 20px;
+  background: no-repeat center url('../../../../public/paper2.jpg');
+}
+
+.header {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0 10px 0;
+
+  display: flex;
+  justify-content: center;
+}
+
+.header_text {
+  margin-right: 10px;
+
+  font-family: 'Tangerine';
+  font-size: 40px;
+}
+
+.refresh {
+  width: 40px;
+  height: 40px;
+
+  transform: rotate(-40deg);
+  background: no-repeat center/60% url('../../../../public/refresh.png');
+  cursor: pointer;
+}
+
+.notes {
+  width: 100%;
+  height: 60%;
+
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 5px
+}
+
+.input {
+  width: 100%;
+  height: 30%;
+
+  display: flex;
+  justify-content: center;
+}
